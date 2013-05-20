@@ -31,3 +31,9 @@ Below, a complete implementation:
 	$vcard->setPhoto("john.jpg"); 
 	
 	echo $vcard;
+	
+
+
+##License
+
+This project is released under the [MIT License](http://www.opensource.org/licenses/mit-license.php) .
