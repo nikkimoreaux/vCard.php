@@ -36,4 +36,4 @@ Below, a complete implementation:
 
 ##License
 
-This project is released under the [MIT License](http://www.opensource.org/licenses/mit-license.php) .
+This project is released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
