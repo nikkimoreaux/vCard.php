@@ -2,40 +2,28 @@
 
 /*
 
-# A very simple PHP vCard generator
-With photo support.
-
-
-Major limitation: single address support
-
-Below, a complete implementation:
-
-	header("Content-type: text/x-vcard");
-	header("Content-Disposition: attachment; filename=\"john_doe.vcf\";");
-	
-	require_once('vCard.php');
-
-	$vcard = new vCard;
-	
-	$vcard->setName("John","Doe");
-
-	// Every set functions below are optional
-	$vcard->setTitle("Software dev.");
-	$vcard->setPhone("+1234567890");
-	$vcard->setURL("http://johndoe.com");
-	$vcard->setTwitter("diplodocus");
-	$vcard->setMail("john@johndoe.com");
-	$vcard->setAddress(array(
-		"street_address"   => "Main Street",
-		"city"             => "Ghost Town",
-		"state"            => "",
-		"postal_code"      => "012345",
-		"country_name"     => "Somewhere"
-	));
-	$vcard->setNote("Lorem Ipsum, \nWith new line.");
-	$vcard->setPhoto("john.jpg"); 
-	
-	echo $vcard;
+Copyright © 2013 Nikki Moreaux http://diplodoc.us
+ 
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+ 
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
 */
 
