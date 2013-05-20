@@ -1,8 +1,7 @@
 # A very simple PHP vCard generator
 **With photo support.**
 
-
-Major limitation: single address support
+Limitation: one phone/mail/address/url max.
 
 Below, a complete implementation:
 
